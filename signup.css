@@ -1,0 +1,148 @@
+
+@font-face {
+    font-family: custom-font;
+    src: url(font/Norse-Bold.otf);
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+}
+h1, p {
+    margin-left: 70px;
+}
+
+.form-header > span {
+    margin-left: 70px;
+}
+.form-header {
+    font-weight: bold;
+}
+
+.right {
+    background-color: rgba(177, 175, 175, 0.425);
+}
+
+.container {
+    display: flex;
+
+}
+
+p, span {
+    font-family: sans-serif;
+}
+
+.left {
+    background: url(pictures/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+ 
+}
+.total-form {
+    background-color: white;
+    box-shadow: 2px 2px 8px gray;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.right {
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.form-row {
+    margin: 28px;
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 30rem;
+    margin-left: 40px;
+}
+
+button[type=submit] {
+    margin-left: 45px;
+    border-radius: 10px;
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: rgb(15, 66, 15);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+label,input{
+    display:flex;
+    flex-direction:column;
+  }
+  label {
+    font-family: Helvetica, sans-serif;
+  }
+
+p { 
+    display: flex;
+    flex-direction: column;
+}
+
+.span-row {
+    margin-left: 45px;
+}
+
+.transparent {
+    width: 100%;
+    height: 150px;
+    margin-top: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(1,1,1,0.5);
+
+}
+.palace {
+    font-family: custom-font, sans-serif;
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+a {
+    border: none;
+    background-color: transparent;
+    color:rgb(15, 66, 15);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(37, 110, 153);
+}
+
+button[type=submit]:hover {
+    background-color:rgb(37, 110, 153)
+}
+
+
+  input:focus {
+      box-shadow: 2px 2px 8px gray;
+  }
+
+
+
+  .footer-container {
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+    
+  }
+
+  /* Add in logic to make passwords match,
+     make sure passwords are 8 characters with at least 1 number
+    Make sure they enter valid phone number*/
